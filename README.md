@@ -12,3 +12,5 @@ smb_dh.bin is the run I created, essentially a "human theory" TAS.
 smb_wr.bin is the world record run created by Happylee, I adapted it to run on the +DuckHunt cart.
 
 frame2bin.pl is used to create the binary read by the XLR8. To create my binaries, I use BizHawk to make a TAS video which results in a text file that is the list of game instructions. frame2bin.pl parses this file and creates 8 bit controller instructions for the XLR8.
+
+fm22bin.pl is the frame2bin.pl file I adapted to take the fm2 format as input rather than the BizHawk format.
