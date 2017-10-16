@@ -1,3 +1,14 @@
+/*
+ Copyright Bryan R. Craker 2017
+
+ Used to execute arbitrary controller input for an NES using an XLR8 board
+
+ Requires SD card on the SPI interface with CS on D09, NES clock on D02, NES latch on D03
+
+ Released without warranty, hoping people will find it useful
+
+*/
+
 #include <SPI.h>
 #include <SD.h>
 
