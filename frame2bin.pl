@@ -1,3 +1,6 @@
+# Copyright Bryan R. Craker 2017
+# Used to turn a TAS video file created with BizHawk into binary NES controller inputs
+
 use strict;
 use warnings;
 
