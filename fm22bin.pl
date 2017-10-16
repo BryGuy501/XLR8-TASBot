@@ -1,3 +1,6 @@
+# Copyright Bryan R. Craker 2017
+# Adapted code from frame2bin.pl, used to turn an FM2 TAS video file into binary NES controller inputs
+
 use strict;
 use warnings;
 
